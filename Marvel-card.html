@@ -1,0 +1,141 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel animation</title>
+    <style>
+     *{
+        margin: 100px;
+        background-color: black;
+        background-image: url( );
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 10px whitesmoke ;
+        
+     }
+
+        .container{
+            height: 400px;
+            width: 100%;
+            margin: 40px;
+            padding: 50px;
+         border-radius: 30px;
+            display: flex;   
+            align-items: center;
+            justify-content: space-evenly;
+            background-image: url(https://i.pinimg.com/originals/7a/03/d9/7a03d97d7e1907d2a7ce905115c894b6.gif);
+            background-size: cover;
+            cursor: pointer;
+            position: relative;
+            right: 100px;
+            box-shadow: 0px 0px 100px red ; 
+          
+            
+        }
+        .box1{
+            height: 300px;
+            margin: 30px;
+            padding: 30px;
+            display: flex;
+            
+            width: 300px;
+            border-radius: 20px;
+            background-image: url(https://i.pinimg.com/736x/0e/06/bc/0e06bcc6a9a567229fdd5ba6ea78bf21.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            right:30px;
+            box-shadow: 0px 0px 30px whitesmoke;
+           
+        
+
+            
+        }
+        .box1:hover{
+            transform: scale(1.2);
+            transition: .3s;
+            background-image:url(https://i.pinimg.com/originals/f0/86/d7/f086d70fd6566781a769de1ea9f19b41.gif) ;
+            background-size: cover;
+            background-position: center;
+            
+     
+            width: 300px;
+        }
+       .box2{
+        height: 300px;
+        width: 300px;
+        margin: 30px;
+        padding: 30px;
+
+        display: flex;
+         border-radius:20px ;
+         background-image: url(https://i.pinimg.com/736x/84/29/45/842945b866f064688e6c6e4d8dd90a42.jpg);
+         background-size: cover;
+        position: relative;
+        right: 30px;
+        box-shadow: 0px 0px 30px whitesmoke;
+       }
+       .box2:hover{
+        transform: scale(1.2);
+        transition: .3s;
+        background-image: url(https://i.pinimg.com/originals/18/c7/b6/18c7b69489b84dd8fdf38a8332e8db98.gif);
+        width: 300px;
+        
+       }
+       .box3{
+        height: 300px;
+        width: 300px;
+        margin: 30px;
+        padding: 30px;
+        display: flex;
+         border-radius:20px ;
+         background-image: url(https://i.pinimg.com/control2/736x/e5/6e/c8/e56ec8351bfd3b2090fcd65ad460c16f.jpg);
+         background-size: cover;
+         position: relative;
+         right: 30px;
+         box-shadow: 0px 0px 30px whitesmoke;
+        
+       }
+       .box3:hover{
+        transform: scale(1.2);
+        transition: .3s;
+        background-image: url(https://i.pinimg.com/originals/9e/ec/cb/9eeccb741f8180eb0080bea825b3e0d3.gif);
+        background-position: center;
+        width: 300px;
+        
+       }
+
+     
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        
+        
+        
+        </div>
+
+    
+    <script>
+        let correctPassword = "12345";
+        let userInput;
+
+        do{
+            userInput = prompt("Enter your password");
+            if(userInput !== correctPassword){
+                alert("Incorrect password, try again");
+                }            
+        }while(userInput !== correctPassword);
+        alert("Welcome to the Marvel Universe");
+
+    </script>
+</body>
+</html>
